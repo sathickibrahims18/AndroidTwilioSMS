@@ -7,5 +7,6 @@ Folder Structure:
           - DownTimeAlerter
           - Server_DTA
       
-DownTimeAlerter - Import this folder in Android Studio\n
+DownTimeAlerter - Import this folder in Android Studio
+
 Server_DTA - Import this folder in InteliJ IDEA Community
