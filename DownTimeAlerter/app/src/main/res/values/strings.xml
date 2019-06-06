@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DownTimeAlerter</string>
+    <string name="web_url">Enter URL</string>
+    <string name="btname">Run</string>
+    <string name="sservice">Stop Service</string>
+    <string name="txtservice">Module Running</string>
+</resources>

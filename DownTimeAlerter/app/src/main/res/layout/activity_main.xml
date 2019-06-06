@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/urlet"
+        android:layout_marginTop="200dp"
+        android:hint="@string/web_url"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:inputType="text"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitbt"
+        android:layout_below="@id/urlet"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:text="@string/btname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtmsg"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:text="@string/txtservice"
+        android:layout_below="@id/submitbt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitss"
+        android:layout_below="@id/txtmsg"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:text="@string/sservice"
+        android:visibility="gone"/>
+</RelativeLayout>
