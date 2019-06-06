@@ -8,7 +8,7 @@ Folder Structure:
     
           - DownTimeAlerter
           
-          - Server_DTA
+          - Server_DTA(DTA means DownTimeAlerter)
       
 DownTimeAlerter - Import this folder in Android Studio
 
